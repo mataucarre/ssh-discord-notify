@@ -26,6 +26,7 @@ Envoyer une notification sur Discord à chaque connexion SSH sur votre serveur.
 ```bash
 sudo nano /usr/local/bin/ssh-notify.sh
 ```
+- Modifier la variable SITE et USER_PING
 ---
 
 ## 4) Configuration de PAM pour SSH

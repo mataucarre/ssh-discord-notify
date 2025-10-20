@@ -7,7 +7,7 @@ WEBHOOK_URL="https://discord.com/api/webhooks/..."
 SITE="votre-site.fr"
 
 # ID Discord de l'utilisateur à ping (mettre vide pour aucun ping)
-USER_PING=""  # Exemple : 1234567891234567890
+USER_PING=""  # Exemple : USER_PING="1234567891234567890"
 
 if [ "$PAM_TYPE" != "open_session" ]; then
     exit 0
